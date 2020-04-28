@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+
+<html>
+
+<head>
+    <meta charset="utf8">
+    <meta name="viewport" content="width=devide-width, initial-scale=1.0">
+
+    <title>Rich-Text Editor</title>
+
+    <link href="styles.css" rel="stylesheet" type="text/css">
+
+    <script src="script.js"></script>
+    <script src="https://kit.fontawesome.com/708a397492.js" crossorigin="anonymous"></script>
+</head>
+
+<body>
+    <div class="container">
+        <div class="editor-box">
+            <div class="tools-bar">
+                <button>
+                    <i class="fas fa-heading"></i>
+                </button>
+                <button>
+                    <i class="fas fa-bold"></i>
+                </button>
+                <button>
+                    <i class="fas fa-italic"></i>
+                </button>
+                <button>
+                    <i class="fas fa-code"></i>
+                </button>
+                <button>
+                    <i class="fas fa-list"></i>
+                </button>
+                <button>
+                    <i class="fas fa-underline"></i>
+                </button>
+                <button>
+                    <i class="fas fa-quote-right"></i>
+                </button>
+                <button>
+                    <i class="fas fa-link"></i>
+                </button>
+            </div>
+            <div class="text-box">
+                <div contenteditable="true" class="text-box-editable">
+                    This is the first line.<br>
+                    See, how the text fits here, also if<br>there is a <strong>linebreak</strong> at the end?
+                    <br>It works nicely.
+                    <br>
+                    <br><span style="color: lightgreen">Great</span>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>
