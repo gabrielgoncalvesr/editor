@@ -34,13 +34,17 @@ body {
     box-shadow: 0px 0px 20px #bababa;
 }
 
+.tools {
+    width: 100%;
+}
+
 .tools-bar {
     width: 100%;
     height: 40px;
     display: flex;
     flex-direction: row;
     align-items: center;
-    justify-content: center;
+    justify-content: space-around;
     border-top: 1px solid #b8b8b8;
     border-bottom: 1px solid #b8b8b8;
 }
@@ -55,6 +59,18 @@ body {
     color: #878787;
 }
 
+.tools-bar select {
+    font: inherit;
+    cursor: pointer;
+    border-radius: 3px;
+    color: #878787;
+    border: #878787 1px solid;
+}
+
+.tools-bar select:focus {
+    outline: 0px solid transparent;
+}
+
 .text-box {
     width: 100%;
     height: 100%;
@@ -62,7 +78,8 @@ body {
 
 .content-editable {
     width: 100%;
-    min-height: 200px;
+    min-height: 300px;
+    margin: 20px;
 }
 
 .content-editable:focus {
